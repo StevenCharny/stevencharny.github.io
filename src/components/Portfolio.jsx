@@ -376,33 +376,24 @@ const Portfolio = () => {
               <div className="main_details">
                 <div className="textbox">
                   <p>
-                    We live in a world where we need to move quickly and iterate
-                    on our ideas as flexibly as possible. Building mockups
-                    strikes the ideal balance between true-life representation
-                    of the end product and ease of modification.
-                  </p>
-                  <p>
-                    Mockups are useful both for the creative phase of the
-                    project - for instance when you're trying to figure out your
-                    user flows or the proper visual hierarchy - and the
-                    production phase when they will represent the target
-                    product. Making mockups a part of your creative and
-                    development process allows you to quickly and easily ideate.
+                    This project was a Password Generator made in html, css and javascript.
+                    <br/>
+                    [file upload here]
                   </p>
                 </div>
                 <div className="detailbox">
                   <ul>
                     <li>
                       <span className="first">Client</span>
-                      <span>Alvaro Morata</span>
+                      <span>Sellf - Code Along</span>
                     </li>
                     <li>
                       <span className="first">Category</span>
-                      <span>Details</span>
+                      <span>Web App</span>
                     </li>
                     <li>
                       <span className="first">Date</span>
-                      <span>March 07, 2021</span>
+                      <span>Oct 15, 2021</span>
                     </li>
                   </ul>
                 </div>
@@ -480,102 +471,94 @@ const Portfolio = () => {
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
-                <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
+                <img src="assets/img/thumbs/4-3.jpg" alt="thumb" />
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/portfolio/7.jpg)",
+                    backgroundImage: "url(assets/img/portfolio/herald4.jpg)",
                   }}
                 ></div>
               </div>
               {/* END IMAGE */}
               <div className="portfolio_main_title">
-                <h3>Ave Simone</h3>
-                <span>Details</span>
+                <h3>Herald Ad Campaign</h3>
+                <span>Advertising</span>
               </div>
               {/* END portfolio_main_title */}
               <div className="main_details">
                 <div className="textbox">
                   <p>
-                    We live in a world where we need to move quickly and iterate
-                    on our ideas as flexibly as possible. Building mockups
-                    strikes the ideal balance between true-life representation
-                    of the end product and ease of modification.
-                  </p>
-                  <p>
-                    Mockups are useful both for the creative phase of the
-                    project - for instance when you're trying to figure out your
-                    user flows or the proper visual hierarchy - and the
-                    production phase when they will represent the target
-                    product. Making mockups a part of your creative and
-                    development process allows you to quickly and easily ideate.
+                    As the creative director of the College Heights Herald, the student run newspaper of Western Kentucky University, I took it upon myself to craft and run an
+                    ad campaign that showed off more of the human, student side of the student newspaper. This Ad Campaign won 2nd place nationally at the CMBAM (College Media Business and Advertising Managers) Conference.
+
                   </p>
                 </div>
                 <div className="detailbox">
                   <ul>
                     <li>
                       <span className="first">Client</span>
-                      <span>Alvaro Morata</span>
+                      <span>Student Work</span>
                     </li>
                     <li>
                       <span className="first">Category</span>
-                      <span>Details</span>
+                      <span>Advertising</span>
                     </li>
                     <li>
                       <span className="first">Date</span>
-                      <span>March 07, 2021</span>
+                      <span>november 05, 2013</span>
                     </li>
                   </ul>
                 </div>
               </div>
               {/* main_details */}
-
+              <SRLWrapper>
               <div className="additional_images">
                 <ul className="gallery_zoom">
                   {/* <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <img src="assets/img/portfolio/herald4.jpg" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url(assets/img/portfolio/6.jpg)",
+                            backgroundImage: "url(assets/img/portfolio/herald4.jpg)",
                           }}
                         ></div>
                       </div>
                     </div>
                   </li> */}
                   {/* END SHOT */}
-                  {/* <li>
+                  <li>
                     <div className="list_inner">
                       <div className="my_image">
                         <img src="img/thumbs/4-2.jpg" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url(assets/img/portfolio/5.jpg)",
+                            backgroundImage: "url(assets/img/portfolio/herald2.jpg)",
                           }}
                         ></div>
                       </div>
                     </div>
-                  </li> */}
+                  </li>
                   {/* END SHOT */}
                   {/* <li>
                     <div className="list_inner">
-                      <div className="my_image">
-                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
-                        <div
-                          className="main"
-                          style={{
-                            backgroundImage: "url(assets/img/portfolio/4.jpg)",
-                          }}
-                        ></div>
-                      </div>
+                    <div className="my_image">
+                    <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                    <div
+                    className="main"
+                    style={{
+                      backgroundImage: "url(assets/img/portfolio/4.jpg)",
+                    }}
+                    ></div>
+                    </div>
                     </div>
                   </li> */}
                   {/* END SHOT */}
                 </ul>
               </div>
+                  </SRLWrapper>
             </div>
           </div>
           {/* END BOX INNER */}
@@ -604,31 +587,22 @@ const Portfolio = () => {
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/portfolio/7.jpg)",
+                    backgroundImage: "url(assets/img/portfolio/voh2.jpg)",
                   }}
                 ></div>
               </div>
               {/* END IMAGE */}
               <div className="portfolio_main_title">
-                <h3>Ave Simone</h3>
-                <span>Details</span>
+                <h3>View of the Hill</h3>
+                <span>Magazine</span>
               </div>
               {/* END portfolio_main_title */}
               <div className="main_details">
                 <div className="textbox">
                   <p>
-                    We live in a world where we need to move quickly and iterate
-                    on our ideas as flexibly as possible. Building mockups
-                    strikes the ideal balance between true-life representation
-                    of the end product and ease of modification.
-                  </p>
-                  <p>
-                    Mockups are useful both for the creative phase of the
-                    project - for instance when you're trying to figure out your
-                    user flows or the proper visual hierarchy - and the
-                    production phase when they will represent the target
-                    product. Making mockups a part of your creative and
-                    development process allows you to quickly and easily ideate.
+                    As the Creative Director of the College Heights Herald, I Took over the design and layout of the "View of the Hill," a magazine sent off to incoming freshmen
+                    that previews the stories and people currently inhabiting the campus of Western Kentucky University. Being the only designer on a 64 page magazine style book was
+                    the best learning experience that I could have wished for.
                   </p>
                 </div>
                 <div className="detailbox">
